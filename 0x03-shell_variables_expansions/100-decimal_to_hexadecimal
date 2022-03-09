@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 10 | bc 16
+echo $((10#16))
