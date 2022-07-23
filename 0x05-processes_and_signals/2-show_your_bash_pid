@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-# Bash script that displays lines containing the bash word, thus allowing you to easily get the PID of your Bash process.
-ps auxf | echo "bash"
+# Displays the current running processes containing the bash word, in a user-oriented format.
 # shellcheck disable=SC2009
+
+ps -faux | grep "bash"
