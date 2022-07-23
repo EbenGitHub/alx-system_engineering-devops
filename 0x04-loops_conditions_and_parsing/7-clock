@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# clock
+# This script shows clock
 hour=-1
 while [ $((++hour)) -le 12 ]; do
 	echo Hour: $hour
