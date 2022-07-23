@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script is displaying "luck stuff" 10 times Bad luck and good luck
+# This script is displaying -- "luck stuff" 10 times Bad luck and good luck
 i=0
 while [ $((++i)) -le 10 ]; do
 	if [ $i == 4 ]; then

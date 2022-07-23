@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# fizzbuzz problem script 
+# fizzbuzz problem script -- 
 i=0
 while [ $((i++)) -lt 100 ]; do
 	if [ $((i % 15)) -eq 0 ]; then

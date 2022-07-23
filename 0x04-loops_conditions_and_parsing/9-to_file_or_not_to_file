@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Script will show file information
+# Script will show file information --
 file="school"
 
 if [ ! -e "$file" ]; then

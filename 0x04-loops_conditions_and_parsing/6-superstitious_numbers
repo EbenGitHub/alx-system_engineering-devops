@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script is displaying "luck stuff" 20 times bad luck come from ---
+# This script is displaying -- "luck stuff" 20 times bad luck come from ---
 i=1
 while [ $i -le 20 ]; do
 	echo $i
