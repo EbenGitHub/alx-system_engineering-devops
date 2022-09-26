@@ -1,9 +1,13 @@
 #!/usr/bin/env bash
 # Configures a new Ubuntu server with a HAproxy load-balancer
-# apt-get install --no-install-recommends software-properties-common
-# add-apt-repository ppa:vbernat/haproxy-2.6
-# apt-get -y update =2.6.\*
-sudo apt-get install haproxy
-sudo sed -i '35 a frontend http\n\tbind *:80\n\tmode http\n\tdefault_backend web-backend\n'  /etc/haproxy/haproxy.cfg
-sudo sed -i '40 a backend web-backend\n\tbalance roundrobin\n\tmode http\n\tserver 23298-web-01 44.192.81.96:80 check\n\tserver 23298-web-02 3.236.224.97:80 check\n' /etc/haproxy/haproxy.cfg
-sudo service haproxy restart
+sudo apt-get install --no-install-recommends software-properties-common
+sudo add-apt-repository ppa:vbernat/haproxy-2.6
+sudo apt-get -y update
+sudo apt-get install haproxy=2.6.\*
+sed -i '/errorfile 504/a listen thelaura' /etc/haproxy/haproxy.cfg
+sed -i '/listen thelaura/a\tbind :80' /etc/haproxy/haproxy.cfg
+sed -i '/bind :80/a\tmode http' /etc/haproxy/haproxy.cfg
+sed -i '/mode http/a\tserver 23298-web-01 44.192.81.96:80 check' /etc/haproxy/haproxy.cfg
+sed -i '/server 23298-web-01 44.192.81.96:80 check/a\tserver 23298-web-02 3.236.224.97:80 check' /etc/haproxy/haproxy.cfg
+sed -i '/#EXTRAOPTS="-de -m 16"/a ENABLED=1' /etc/default/haproxy
+service haproxy start
