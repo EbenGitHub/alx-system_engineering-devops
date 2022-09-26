@@ -5,7 +5,7 @@ sudo add-apt-repository ppa:vbernat/haproxy-2.6
 sudo apt-get -y update
 sudo apt-get install haproxy=2.6.\*
 sed -i '/errorfile 504/a listen abenserver' /etc/haproxy/haproxy.cfg
-sed -i '/listen thelaura/a \\tbind :80' /etc/haproxy/haproxy.cfg
+sed -i '/listen abenserver/a \\tbind :80' /etc/haproxy/haproxy.cfg
 sed -i '/bind :80/a \\tmode http' /etc/haproxy/haproxy.cfg
 sed -i '/mode http/a \\tserver 23298-web-01 44.192.81.96:80 check' /etc/haproxy/haproxy.cfg
 sed -i '/server 23298-web-01 44.192.81.96:80 check/a \\tserver 23298-web-02 3.236.224.97:80 check' /etc/haproxy/haproxy.cfg
