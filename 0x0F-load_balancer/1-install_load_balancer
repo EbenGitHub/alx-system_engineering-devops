@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # Configures a new Ubuntu server with a HAproxy load-balancer
-sudo apt-get install --no-install-recommends software-properties-common
-sudo add-apt-repository ppa:vbernat/haproxy-2.6
-sudo apt-get -y update
-sudo apt-get install haproxy=2.6.\*
+apt-get -y install software-properties-common
+add-apt-repository -y ppa:vbernat/haproxy-1.8
+apt-get -y update
+apt-get -y install haproxy=1.8.\*
 sed -i '/errorfile 504/a listen abenserver' /etc/haproxy/haproxy.cfg
 sed -i '/listen abenserver/a \\tbind :80' /etc/haproxy/haproxy.cfg
 sed -i '/bind :80/a \\tmode http' /etc/haproxy/haproxy.cfg
