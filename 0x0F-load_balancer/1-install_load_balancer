@@ -4,10 +4,6 @@ apt-get install --no-install-recommends software-properties-common
 add-apt-repository ppa:vbernat/haproxy-2.6
 apt-get -y update
 apt-get install haproxy=2.6.\*
-sed -i '/errorfile 504/a listen thelaura' /etc/haproxy/haproxy.cfg
-sed -i '/listen thelaura/a         bind :80' /etc/haproxy/haproxy.cfg
-sed -i '/bind :80/a         mode http' /etc/haproxy/haproxy.cfg
-sed -i '/mode http/a         server 23298-web-01 44.192.81.96:80 check' /etc/haproxy/haproxy.cfg
-sed -i '/server 23298-web-01 44.192.81.96:80 check/a         server 23298-web-02 3.236.224.97:80 check' /etc/haproxy/haproxy.cfg
-sed -i '/#EXTRAOPTS="-de -m 16"/a ENABLED=1' /etc/default/haproxy
-service haproxy start
+sudo sed -i '35 a frontend http\n\tbind *:80\n\tmode http\n\tdefault_backend web-backend\n'  /etc/haproxy/haproxy.cfg
+sudo sed -i '40 a backend web-backend\n\tbalance roundrobin\n\tmode http\n\tserver node1 34.138.32.10:80 check\n\tserver node2 34.237.53.89:80 check\n' /etc/haproxy/haproxy.cfg
+sudo service haproxy restart
