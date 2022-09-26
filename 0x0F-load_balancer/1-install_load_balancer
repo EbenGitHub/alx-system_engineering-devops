@@ -10,4 +10,4 @@ sed -i '/bind :80/a \\tmode http' /etc/haproxy/haproxy.cfg
 sed -i '/mode http/a \\tserver 23298-web-01 44.192.81.96:80 check' /etc/haproxy/haproxy.cfg
 sed -i '/server 23298-web-01 44.192.81.96:80 check/a \\tserver 23298-web-02 3.236.224.97:80 check' /etc/haproxy/haproxy.cfg
 sed -i '/#EXTRAOPTS="-de -m 16"/a ENABLED=1' /etc/default/haproxy
-service haproxy start
+sudo service haproxy restart
