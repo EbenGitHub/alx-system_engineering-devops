@@ -1,0 +1,10 @@
+# installing cerbot for ssl
+sudo apt install letsencrypt
+
+# Check if installed succesfully
+systemctl status certbot.timer
+
+# Generate ssl certificate
+certbot certonly --standalone --agree-tos --preferred-challenges http -d www.abenezereshetie.tech --register-unsafely-without-email
+
+# Combine cert.pem and prvkey.pem in to one .pem file which ever you want to name it. Then point the HAProxy to the certificate location 
