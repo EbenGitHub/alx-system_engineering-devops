@@ -1,9 +1,7 @@
 #!/usr/bin/python3
-
 import requests
 import sys
 import json
-
 """ This will use REST API for a given employee ID and displays TODO list in progress
 
 Usage: 
