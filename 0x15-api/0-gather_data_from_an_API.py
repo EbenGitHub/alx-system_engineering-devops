@@ -1,13 +1,14 @@
 #!/usr/bin/python3
-import requests
-import sys
-import json
 """ This will use REST API for a given employee ID and displays TODO list in progress
 
 Usage: 
     $ python3 0-gather_data_from_an_API.py <employee ID>
 
 """
+
+import json
+import requests
+import sys
 
 if __name__ == "__main__":
 
