@@ -27,7 +27,7 @@ http {
 		location /api/ {
 		
 		# Proxy pass to api/v1 of the gunicorn flask
-		proxy_pass http://127.0.0.1:5002/api/;
+		proxy_pass http://127.0.0.1:5002;
 
 		}
 
