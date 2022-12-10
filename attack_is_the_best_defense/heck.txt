@@ -1,0 +1,100 @@
+16:47:48.396494 IP 196.188.40.131.54038 > 23298-web-01.ssh: Flags [.], ack 3372195479, win 4140, length 0
+16:47:48.396542 IP 23298-web-01.ssh > 196.188.40.131.54038: Flags [.], seq 333:1773, ack 0, win 451, length 1440
+16:47:48.396556 IP 23298-web-01.ssh > 196.188.40.131.54038: Flags [P.], seq 1773:3161, ack 0, win 451, length 1388
+16:47:48.438804 IP 196.188.40.131.54038 > 23298-web-01.ssh: Flags [.], ack 333, win 4138, length 0
+16:47:48.595742 IP 196.188.40.131.54038 > 23298-web-01.ssh: Flags [.], ack 333, win 4138, options [nop,nop,sack 1 {1773:3161}], length 0
+16:47:48.595780 IP 196.188.40.131.54038 > 23298-web-01.ssh: Flags [.], ack 3161, win 4140, length 0
+16:47:49.274145 IP 23298-web-01.http-alt > hostedby.privatelayer.com.55355: Flags [S.], seq 160794674, ack 2449113348, win 62727, options [mss 8961], length 0
+16:47:49.335347 IP ec2-3-227-251-198.compute-1.amazonaws.com.33258 > 23298-web-01.http: Flags [S], seq 2471881995, win 62727, options [mss 1460,sackOK,TS val 885443507 ecr 0,nop,wscale 7], length 0
+16:47:49.335407 IP 23298-web-01.http > ec2-3-227-251-198.compute-1.amazonaws.com.33258: Flags [S.], seq 2782382305, ack 2471881996, win 62643, options [mss 8961,sackOK,TS val 232452874 ecr 885443507,nop,wscale 7], length 0
+16:47:49.336043 IP ec2-3-227-251-198.compute-1.amazonaws.com.33258 > 23298-web-01.http: Flags [R.], seq 1, ack 1, win 491, options [nop,nop,TS val 885443508 ecr 232452874], length 0
+16:47:50.667666 IP 196.188.40.131.54038 > 23298-web-01.ssh: Flags [P.], seq 0:36, ack 3161, win 4140, length 36
+16:47:50.738164 IP 23298-web-01.ssh > 196.188.40.131.54038: Flags [.], ack 36, win 451, length 0
+16:47:50.900826 IP 196.188.40.131.54038 > 23298-web-01.ssh: Flags [P.], seq 36:80, ack 3161, win 4140, length 44
+16:47:50.900870 IP 23298-web-01.ssh > 196.188.40.131.54038: Flags [.], ack 80, win 451, length 0
+16:47:50.901980 IP 23298-web-01.ssh > 196.188.40.131.54038: Flags [P.], seq 3161:3893, ack 80, win 451, length 732
+16:47:51.202988 IP 196.188.40.131.54038 > 23298-web-01.ssh: Flags [.], ack 3893, win 4137, length 0
+16:47:51.337498 IP ec2-3-227-251-198.compute-1.amazonaws.com.33260 > 23298-web-01.http: Flags [S], seq 1290753675, win 62727, options [mss 1460,sackOK,TS val 885445509 ecr 0,nop,wscale 7], length 0
+16:47:51.337561 IP 23298-web-01.http > ec2-3-227-251-198.compute-1.amazonaws.com.33260: Flags [S.], seq 1285333824, ack 1290753676, win 62643, options [mss 8961,sackOK,TS val 232454877 ecr 885445509,nop,wscale 7], length 0
+16:47:51.338133 IP ec2-3-227-251-198.compute-1.amazonaws.com.33260 > 23298-web-01.http: Flags [R.], seq 1, ack 1, win 491, options [nop,nop,TS val 885445510 ecr 232454877], length 0
+16:47:52.472837 IP 196.188.40.131.54038 > 23298-web-01.ssh: Flags [P.], seq 80:124, ack 3893, win 4137, length 44
+16:47:52.473476 IP 23298-web-01.ssh > 196.188.40.131.54038: Flags [P.], seq 3893:6377, ack 124, win 451, length 2484
+16:47:52.667066 IP 196.188.40.131.54038 > 23298-web-01.ssh: Flags [.], ack 6377, win 4140, length 0
+16:47:53.339558 IP ec2-3-227-251-198.compute-1.amazonaws.com.33262 > 23298-web-01.http: Flags [S], seq 4170379148, win 62727, options [mss 1460,sackOK,TS val 885447511 ecr 0,nop,wscale 7], length 0
+16:47:53.339621 IP 23298-web-01.http > ec2-3-227-251-198.compute-1.amazonaws.com.33262: Flags [S.], seq 3801072689, ack 4170379149, win 62643, options [mss 8961,sackOK,TS val 232456879 ecr 885447511,nop,wscale 7], length 0
+16:47:53.340180 IP ec2-3-227-251-198.compute-1.amazonaws.com.33262 > 23298-web-01.http: Flags [R.], seq 1, ack 1, win 491, options [nop,nop,TS val 885447512 ecr 232456879], length 0
+16:47:53.679815 IP 196.188.40.131.54038 > 23298-web-01.ssh: Flags [P.], seq 124:160, ack 6377, win 4140, length 36
+16:47:53.682443 IP 23298-web-01.ssh > 196.188.40.131.54038: Flags [P.], seq 6377:8461, ack 160, win 451, length 2084
+16:47:53.682547 IP 23298-web-01.ssh > 196.188.40.131.54038: Flags [P.], seq 8461:8873, ack 160, win 451, length 412
+16:47:53.682931 IP 23298-web-01.ssh > 196.188.40.131.54038: Flags [P.], seq 8873:9125, ack 160, win 451, length 252
+16:47:53.691194 IP 23298-web-01.36503 > 10.251.0.2.domain: 20263+ [1au] A? smtp.sendgrid.net. (46)
+16:47:53.691327 IP 23298-web-01.39845 > 10.251.0.2.domain: 47000+ [1au] AAAA? smtp.sendgrid.net. (46)
+16:47:53.692770 IP 10.251.0.2.domain > 23298-web-01.36503: 20263 18/0/1 A 167.89.115.79, A 167.89.115.116, A 167.89.115.117, A 167.89.115.145, A 167.89.123.53, A 167.89.123.58, A 167.89.123.82, A 167.89.123.95, A 167.89.123.97, A 167.89.123.149, A 34.237.250.201, A 52.0.142.242, A 52.204.68.213, A 54.146.218.5, A 54.157.14.6, A 107.20.8.136, A 167.89.115.18, A 167.89.115.53 (334)
+16:47:53.692811 IP 10.251.0.2.domain > 23298-web-01.39845: 47000 0/1/1 (106)
+16:47:53.693233 IP 23298-web-01.51720 > o16789115x79.outbound-mail.sendgrid.net.submission: Flags [S], seq 1856268548, win 62727, options [mss 8961,sackOK,TS val 2792748291 ecr 0,nop,wscale 7], length 0
+16:47:53.694653 IP o16789115x79.outbound-mail.sendgrid.net.submission > 23298-web-01.51720: Flags [S.], seq 643511528, ack 1856268549, win 28960, options [mss 1460,sackOK,TS val 475599497 ecr 2792748291,nop,wscale 9], length 0
+16:47:53.694677 IP 23298-web-01.51720 > o16789115x79.outbound-mail.sendgrid.net.submission: Flags [.], ack 1, win 491, options [nop,nop,TS val 2792748293 ecr 475599497], length 0
+16:47:53.694740 IP 23298-web-01.51720 > o16789115x79.outbound-mail.sendgrid.net.submission: Flags [P.], seq 1:37, ack 1, win 491, options [nop,nop,TS val 2792748293 ecr 475599497], length 36
+16:47:53.696207 IP o16789115x79.outbound-mail.sendgrid.net.submission > 23298-web-01.51720: Flags [.], ack 37, win 57, options [nop,nop,TS val 475599499 ecr 2792748293], length 0
+16:47:53.696866 IP o16789115x79.outbound-mail.sendgrid.net.submission > 23298-web-01.51720: Flags [P.], seq 1:50, ack 37, win 57, options [nop,nop,TS val 475599499 ecr 2792748293], length 49
+16:47:53.696880 IP 23298-web-01.51720 > o16789115x79.outbound-mail.sendgrid.net.submission: Flags [.], ack 50, win 491, options [nop,nop,TS val 2792748295 ecr 475599499], length 0
+16:47:53.696894 IP o16789115x79.outbound-mail.sendgrid.net.submission > 23298-web-01.51720: Flags [P.], seq 50:180, ack 37, win 57, options [nop,nop,TS val 475599499 ecr 2792748293], length 130
+16:47:53.696905 IP 23298-web-01.51720 > o16789115x79.outbound-mail.sendgrid.net.submission: Flags [.], ack 180, win 490, options [nop,nop,TS val 2792748295 ecr 475599499], length 0
+16:47:53.857563 IP 45.77.6.233.vultrusercontent.com.48256 > 23298-web-01.telnet: Flags [S], seq 750801248, win 16480, length 0
+16:47:53.858293 IP 23298-web-01.45346 > ec2-3-233-148-14.compute-1.amazonaws.com.https: Flags [P.], seq 361973123:361977248, ack 3034865982, win 1551, options [nop,nop,TS val 2077458512 ecr 114447503], length 4125
+16:47:53.858402 IP 23298-web-01.45346 > ec2-3-233-148-14.compute-1.amazonaws.com.https: Flags [P.], seq 4125:5460, ack 1, win 1551, options [nop,nop,TS val 2077458512 ecr 114447503], length 1335
+16:47:53.859248 IP ec2-3-233-148-14.compute-1.amazonaws.com.https > 23298-web-01.45346: Flags [.], ack 4125, win 425, options [nop,nop,TS val 114462485 ecr 2077458512], length 0
+16:47:53.867832 IP ec2-3-233-148-14.compute-1.amazonaws.com.https > 23298-web-01.45346: Flags [P.], seq 1:256, ack 5460, win 425, options [nop,nop,TS val 114462494 ecr 2077458512], length 255
+16:47:53.867850 IP 23298-web-01.45346 > ec2-3-233-148-14.compute-1.amazonaws.com.https: Flags [.], ack 256, win 1551, options [nop,nop,TS val 2077458522 ecr 114462494], length 0
+16:47:53.868244 IP 23298-web-01.45346 > ec2-3-233-148-14.compute-1.amazonaws.com.https: Flags [P.], seq 5460:6017, ack 256, win 1551, options [nop,nop,TS val 2077458522 ecr 114462494], length 557
+16:47:53.870905 IP ec2-3-233-148-14.compute-1.amazonaws.com.https > 23298-web-01.45346: Flags [P.], seq 256:511, ack 6017, win 425, options [nop,nop,TS val 114462497 ecr 2077458522], length 255
+16:47:53.878805 IP 196.188.40.131.54038 > 23298-web-01.ssh: Flags [.], ack 8461, win 4140, length 0
+16:47:53.878806 IP 196.188.40.131.54038 > 23298-web-01.ssh: Flags [.], ack 9125, win 4137, length 0
+16:47:53.914148 IP 23298-web-01.45346 > ec2-3-233-148-14.compute-1.amazonaws.com.https: Flags [.], ack 511, win 1551, options [nop,nop,TS val 2077458568 ecr 114462497], length 0
+16:47:55.341712 IP ec2-3-227-251-198.compute-1.amazonaws.com.33264 > 23298-web-01.http: Flags [S], seq 3357149114, win 62727, options [mss 1460,sackOK,TS val 885449513 ecr 0,nop,wscale 7], length 0
+16:47:55.341773 IP 23298-web-01.http > ec2-3-227-251-198.compute-1.amazonaws.com.33264: Flags [S.], seq 2605963327, ack 3357149115, win 62643, options [mss 8961,sackOK,TS val 232458881 ecr 885449513,nop,wscale 7], length 0
+16:47:55.342285 IP ec2-3-227-251-198.compute-1.amazonaws.com.33264 > 23298-web-01.http: Flags [R.], seq 1, ack 1, win 491, options [nop,nop,TS val 885449514 ecr 232458881], length 0
+16:47:55.692476 IP 23298-web-01.51720 > o16789115x79.outbound-mail.sendgrid.net.submission: Flags [P.], seq 37:49, ack 180, win 490, options [nop,nop,TS val 2792750291 ecr 475599499], length 12
+16:47:55.694226 IP o16789115x79.outbound-mail.sendgrid.net.submission > 23298-web-01.51720: Flags [P.], seq 180:198, ack 49, win 57, options [nop,nop,TS val 475601497 ecr 2792750291], length 18
+16:47:55.694255 IP 23298-web-01.51720 > o16789115x79.outbound-mail.sendgrid.net.submission: Flags [.], ack 198, win 490, options [nop,nop,TS val 2792750292 ecr 475601497], length 0
+16:47:57.343877 IP ec2-3-227-251-198.compute-1.amazonaws.com.33266 > 23298-web-01.http: Flags [S], seq 640591627, win 62727, options [mss 1460,sackOK,TS val 885451515 ecr 0,nop,wscale 7], length 0
+16:47:57.343939 IP 23298-web-01.http > ec2-3-227-251-198.compute-1.amazonaws.com.33266: Flags [S.], seq 1887071170, ack 640591628, win 62643, options [mss 8961,sackOK,TS val 232460883 ecr 885451515,nop,wscale 7], length 0
+16:47:57.344483 IP ec2-3-227-251-198.compute-1.amazonaws.com.33266 > 23298-web-01.http: Flags [R.], seq 1, ack 1, win 491, options [nop,nop,TS val 885451516 ecr 232460883], length 0
+16:47:57.693712 IP 23298-web-01.51720 > o16789115x79.outbound-mail.sendgrid.net.submission: Flags [P.], seq 49:63, ack 198, win 490, options [nop,nop,TS val 2792752292 ecr 475601497], length 14
+16:47:57.695410 IP o16789115x79.outbound-mail.sendgrid.net.submission > 23298-web-01.51720: Flags [P.], seq 198:216, ack 63, win 57, options [nop,nop,TS val 475603498 ecr 2792752292], length 18
+16:47:57.695439 IP 23298-web-01.51720 > o16789115x79.outbound-mail.sendgrid.net.submission: Flags [.], ack 216, win 490, options [nop,nop,TS val 2792752294 ecr 475603498], length 0
+16:47:57.955435 IP unn-212-102-58-164.cdn77.com.55632 > 23298-web-01.https: Flags [S], seq 222820714, win 1024, length 0
+16:47:57.955492 IP 23298-web-01.https > unn-212-102-58-164.cdn77.com.55632: Flags [R.], seq 0, ack 222820715, win 0, length 0
+16:47:57.988844 IP unn-212-102-58-164.cdn77.com.55632 > 23298-web-01.https: Flags [R], seq 222820715, win 1200, length 0
+16:47:58.578506 IP 205.210.31.43.49721 > 23298-web-01.5443: Flags [S], seq 1315583693, win 65535, options [mss 1460], length 0
+16:47:59.346147 IP ec2-3-227-251-198.compute-1.amazonaws.com.33268 > 23298-web-01.http: Flags [S], seq 2367565445, win 62727, options [mss 1460,sackOK,TS val 885453518 ecr 0,nop,wscale 7], length 0
+16:47:59.346209 IP 23298-web-01.http > ec2-3-227-251-198.compute-1.amazonaws.com.33268: Flags [S.], seq 362011363, ack 2367565446, win 62643, options [mss 8961,sackOK,TS val 232462885 ecr 885453518,nop,wscale 7], length 0
+16:47:59.346586 IP ec2-3-227-251-198.compute-1.amazonaws.com.33268 > 23298-web-01.http: Flags [R.], seq 1, ack 1, win 491, options [nop,nop,TS val 885453518 ecr 232462885], length 0
+16:47:59.465498 IP 23298-web-01.45346 > ec2-3-233-148-14.compute-1.amazonaws.com.https: Flags [P.], seq 6017:6746, ack 511, win 1551, options [nop,nop,TS val 2077464120 ecr 114462497], length 729
+16:47:59.468743 IP ec2-3-233-148-14.compute-1.amazonaws.com.https > 23298-web-01.45346: Flags [P.], seq 511:758, ack 6746, win 425, options [nop,nop,TS val 114468095 ecr 2077464120], length 247
+16:47:59.468772 IP 23298-web-01.45346 > ec2-3-233-148-14.compute-1.amazonaws.com.https: Flags [.], ack 758, win 1551, options [nop,nop,TS val 2077464123 ecr 114468095], length 0
+16:47:59.695587 IP 23298-web-01.51720 > o16789115x79.outbound-mail.sendgrid.net.submission: Flags [P.], seq 63:85, ack 216, win 490, options [nop,nop,TS val 2792754294 ecr 475603498], length 22
+16:47:59.728093 IP o16789115x79.outbound-mail.sendgrid.net.submission > 23298-web-01.51720: Flags [P.], seq 216:268, ack 85, win 57, options [nop,nop,TS val 475605530 ecr 2792754294], length 52
+16:47:59.728093 IP o16789115x79.outbound-mail.sendgrid.net.submission > 23298-web-01.51720: Flags [F.], seq 268, ack 85, win 57, options [nop,nop,TS val 475605530 ecr 2792754294], length 0
+16:47:59.728146 IP 23298-web-01.51720 > o16789115x79.outbound-mail.sendgrid.net.submission: Flags [.], ack 268, win 490, options [nop,nop,TS val 2792754326 ecr 475605530], length 0
+16:47:59.728221 IP 23298-web-01.51720 > o16789115x79.outbound-mail.sendgrid.net.submission: Flags [F.], seq 85, ack 269, win 490, options [nop,nop,TS val 2792754326 ecr 475605530], length 0
+16:47:59.729616 IP o16789115x79.outbound-mail.sendgrid.net.submission > 23298-web-01.51720: Flags [.], ack 86, win 57, options [nop,nop,TS val 475605532 ecr 2792754326], length 0
+16:48:01.348086 IP ec2-3-227-251-198.compute-1.amazonaws.com.33272 > 23298-web-01.http: Flags [S], seq 3969012024, win 62727, options [mss 1460,sackOK,TS val 885455520 ecr 0,nop,wscale 7], length 0
+16:48:01.348150 IP 23298-web-01.http > ec2-3-227-251-198.compute-1.amazonaws.com.33272: Flags [S.], seq 3865008681, ack 3969012025, win 62643, options [mss 8961,sackOK,TS val 232464887 ecr 885455520,nop,wscale 7], length 0
+16:48:01.348692 IP ec2-3-227-251-198.compute-1.amazonaws.com.33272 > 23298-web-01.http: Flags [R.], seq 1, ack 1, win 491, options [nop,nop,TS val 885455520 ecr 232464887], length 0
+16:48:01.652705 IP host0.tixbahn.xyz.54431 > 23298-web-01.64563: Flags [S], seq 3208620163, win 1024, length 0
+16:48:01.697183 IP 23298-web-01.ssh > 196.188.40.131.54038: Flags [P.], seq 9125:9241, ack 160, win 451, length 116
+16:48:01.697645 IP 23298-web-01.ssh > 196.188.40.131.54038: Flags [P.], seq 9241:9493, ack 160, win 451, length 252
+16:48:01.904538 IP 196.188.40.131.54038 > 23298-web-01.ssh: Flags [.], ack 9493, win 4135, length 0
+16:48:02.680795 IP 23298-web-01.45346 > ec2-3-233-148-14.compute-1.amazonaws.com.https: Flags [P.], seq 6746:7820, ack 758, win 1551, options [nop,nop,TS val 2077467335 ecr 114468095], length 1074
+16:48:02.697450 IP ec2-3-233-148-14.compute-1.amazonaws.com.https > 23298-web-01.45346: Flags [P.], seq 758:1005, ack 7820, win 425, options [nop,nop,TS val 114471324 ecr 2077467335], length 247
+16:48:02.697499 IP 23298-web-01.45346 > ec2-3-233-148-14.compute-1.amazonaws.com.https: Flags [.], ack 1005, win 1551, options [nop,nop,TS val 2077467352 ecr 114471324], length 0
+16:48:03.298038 IP 196.188.40.131.54038 > 23298-web-01.ssh: Flags [P.], seq 160:196, ack 9493, win 4135, length 36
+16:48:03.338160 IP 23298-web-01.ssh > 196.188.40.131.54038: Flags [.], ack 196, win 451, length 0
+16:48:03.350171 IP ec2-3-227-251-198.compute-1.amazonaws.com.33274 > 23298-web-01.http: Flags [S], seq 3529705767, win 62727, options [mss 1460,sackOK,TS val 885457522 ecr 0,nop,wscale 7], length 0
+16:48:03.350234 IP 23298-web-01.http > ec2-3-227-251-198.compute-1.amazonaws.com.33274: Flags [S.], seq 2098849112, ack 3529705768, win 62643, options [mss 8961,sackOK,TS val 232466889 ecr 885457522,nop,wscale 7], length 0
+16:48:03.350726 IP ec2-3-227-251-198.compute-1.amazonaws.com.33274 > 23298-web-01.http: Flags [R.], seq 1, ack 1, win 491, options [nop,nop,TS val 885457522 ecr 232466889], length 0
+16:48:03.557177 IP 196.188.40.131.54038 > 23298-web-01.ssh: Flags [P.], seq 196:240, ack 9493, win 4135, length 44
+16:48:03.557230 IP 23298-web-01.ssh > 196.188.40.131.54038: Flags [.], ack 240, win 451, length 0
+16:48:03.558402 IP 23298-web-01.ssh > 196.188.40.131.54038: Flags [P.], seq 9493:10225, ack 240, win 451, length 732
+16:48:03.816045 IP 196.188.40.131.54038 > 23298-web-01.ssh: Flags [.], ack 10225, win 4140, length 0
