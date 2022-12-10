@@ -1,0 +1,1 @@
+# Hydra v9.0 run at 2022-11-22 17:29:26 on 127.0.0.1 ssh (hydra -L users.txt -P ./wordlists/rockyou.txt -s 2222 -o brutforce.txt 127.0.0.1 ssh)
